@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" type="JUnit" factoryName="JUnit" singleton="false">
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="pages.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="pages" />
+    <option name="MAIN_CLASS_NAME" value="Steps" />
+    <option name="METHOD_NAME" value="ncl" />
+    <option name="TEST_OBJECT" value="method" />
+    <option name="PARAMETERS" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

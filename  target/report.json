@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 613729,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Client filters cruises by date on ncl.com",
+        "description": "",
+        "id": "filter-cruise-this-is-a-test;client-filters-cruises-by-date-on-ncl.com",
+        "after": [
+          {
+            "result": {
+              "duration": 267086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11127888389,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "client searches for sailings on first available month",
+            "match": {
+              "location": "steps.client_searches_for_sailings_on_first_available_month()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35081777480,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "cruise counter on filter updates",
+            "match": {
+              "location": "steps.cruise_counter_on_filter_updates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 945156486,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "filtered list of cruises is displayed",
+            "match": {
+              "location": "steps.filtered_list_of_cruises_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56066,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "all displayed cruises should start on selected month",
+            "match": {
+              "location": "steps.all_displayed_cruises_should_start_on_selected_month()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20559,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "number of displayed cruises should match previous counter on filter",
+            "match": {
+              "location": "steps.number_of_displayed_cruises_should_match_previous_counter_on_filter()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Filter Cruise this is a test",
+    "description": "  this test is to test if this test works right",
+    "id": "filter-cruise-this-is-a-test",
+    "keyword": "Feature",
+    "uri": "src/test/Resources/Features/FindCruise.feature",
+    "tags": []
+  }
+]
